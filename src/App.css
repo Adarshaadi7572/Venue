@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.parent:hover .child{
+  @apply w-full bg-blue-400 h-1 rounded cursor-pointer transition-all;
+}
